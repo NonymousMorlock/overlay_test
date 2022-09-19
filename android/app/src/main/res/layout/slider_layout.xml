@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slider_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.chinalwb.slidetoconfirmlib.SlideToConfirm
+        android:id="@+id/slide_to_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:layout_marginTop="548dp"
+        app:border_radius="30dp"
+        app:border_width="1dp"
+        app:engage_text_color="@android:color/white"
+        app:engage_text_size="17sp"
+        app:engaged_text_font="@font/pro_solid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:slider_background_color="@android:color/holo_red_light"
+        app:slider_color="@android:color/white"
+        app:slider_image="@drawable/ic_round_chevron_right_24"
+        app:slider_reset_duration="300"
+        app:slider_threshold="1dp"
+        app:slider_vibration_duration="50"
+
+        app:slider_width="52dp"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--    app:completed_text="Unlocked!"-->
+    <!--    app:completed_text_color="@android:color/white"-->
+    <!--    app:completed_text_size="30sp"-->
